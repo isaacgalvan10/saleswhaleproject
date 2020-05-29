@@ -1,0 +1,1333 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+/* navigation bar */
+
+nav {
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+}
+
+nav img {
+  padding-left: 116px;
+  height: 33.3px;
+}
+
+nav button {
+  margin-right: 13px;
+}
+
+nav .btn.btn-outline-primary {
+  width: 96px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav .btn.btn-primary {
+  width: 151px;
+  height: 42px;
+  margin-right: 102px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* above the fold */
+
+.body-container {
+  margin: 60px 110px;
+}
+
+.hero-img {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  align-items: right;
+}
+
+/* Above the fold text */
+
+.container {
+  display: flex;
+  margin-top: 54px;
+}
+
+.bold.flex-1 {
+  text-align: left;
+  line-height: 85%;
+  vertical-align: top;
+  height: 187px;
+  width: 80%;
+  margin-right: 5%;
+}
+
+.flex-2 {
+  font-size: 18px;
+  line-height: 141%;
+  height: 513px;
+  width: 100%;
+  text-align: left;
+  vertical-align: top;
+  color: #002240;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 3.625rem;
+  color: #002240;
+  text-align: center;
+}
+
+/* Mission */
+
+.mission {
+  text-align: center;
+}
+
+.mission h1 {
+  margin-top: 8rem;
+}
+
+.mission p {
+  padding-top: 19px;
+  font-size: 21px;
+  line-height: 144%;
+  letter-spacing: 1%;
+  color: #537089;
+}
+
+.regular-p {
+  font-size: 21px;
+  line-height: 144%;
+  color: #002240;
+  margin-bottom: 30px;
+}
+
+.mission .btn.btn-primary {
+  height: 59px;
+  width: 198px;
+}
+
+/* Mission Flex */
+
+.container-1 {
+  display: flex;
+  margin: 69px 118px 47px 118px;
+  justify-content: space-evenly;
+}
+
+.small-heading {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 129%;
+  text-align: left;
+  vertical-align: top;
+  color: #002240;
+}
+
+.container-p {
+  font-size: 18px;
+  line-height: 141%;
+  text-align: left;
+  vertical-align: top;
+  color: #537089;
+  width: 90%;
+}
+
+.container-1 img {
+  margin-bottom: 18px;
+}
+
+/* Timeline */
+
+.timeline {
+  margin-top: 134px;
+}
+
+.rectangle {
+  position: relative;
+  width: 85%;
+  height: 879px;
+  top: 2077x;
+  margin: 64px auto 77px auto;
+  background: #eff8ff;
+  border-radius: 5px;
+}
+
+.line {
+  margin-left: 264px;
+}
+
+.year {
+  position: absolute;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 131%;
+  color: #0688fa;
+}
+
+.container-2 img {
+  position: absolute;
+}
+
+.timeline-text {
+  position: absolute;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 131%;
+  color: #002240;
+}
+
+.fifteen {
+  top: 120px;
+  left: 119px;
+}
+
+.item-1 img {
+  top: 99px;
+  left: 224px;
+}
+
+.item-1 p {
+  top: 120px;
+  left: 349px;
+}
+
+.sixteen {
+  top: 263px;
+  left: 119px;
+}
+
+.item-2 img {
+  top: 243px;
+  left: 224px;
+}
+
+.item-2 p {
+  top: 263px;
+  left: 349px;
+}
+
+.seventeen {
+  top: 411px;
+  left: 119px;
+}
+
+.item-3 img {
+  top: 387px;
+  left: 224px;
+}
+
+.item-3 p {
+  top: 411px;
+  left: 349px;
+}
+
+.nineteen {
+  top: 550px;
+  left: 119px;
+}
+
+.item-4 img {
+  top: 531px;
+  left: 224px;
+}
+
+.item-4 p {
+  top: 550px;
+  left: 349px;
+}
+
+.twenty {
+  top: 696px;
+  left: 119px;
+}
+
+.item-5 img {
+  top: 675px;
+  left: 224px;
+}
+
+.item-5 p {
+  top: 696px;
+  left: 349px;
+}
+
+/* Offices */
+
+.offices {
+  position: relative;
+}
+
+/* Office Flex */
+
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.office-header {
+  top: 50px;
+  position: relative;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 106%;
+  text-align: center;
+  color: #002240;
+}
+
+.container-3 img {
+  position: relative;
+  top: 35px;
+  left: 44%;
+  bottom: 168px;
+}
+
+.office-text {
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+  line-height: 178%;
+  text-align: center;
+  color: #002240;
+}
+
+.office-1 {
+  position: relative;
+  width: 528px;
+  height: 283px;
+  top: 67px;
+  margin: 0px 80px 0px 152px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.office-2 {
+  position: relative;
+  width: 528px;
+  height: 283px;
+  top: 65px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+/* Background images */
+
+.background-1 {
+  z-index: -1;
+  position: absolute;
+  top: 3150px;
+  width: 101%;
+  height: 50%;
+}
+
+.background-2 {
+  z-index: -1;
+  position: absolute;
+  top: 3450px;
+  width: 101%;
+  height: 50%;
+}
+
+/* Investors */
+
+.investors {
+  position: relative;
+  top: 195px;
+  margin-bottom: 5%;
+}
+
+.container-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.investor-1 {
+  position: relative;
+  width: 528px;
+  top: 200px;
+  left: calc(50% - 528px / 2 - 304px);
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.investor-1 img {
+  position: relative;
+  top: 95px;
+  left: 89px;
+  width: 358px;
+  height: 101px;
+}
+
+.investor-2 {
+  position: relative;
+  width: 528px;
+  height: 283px;
+  top: 200px;
+  left: 230px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.investor-2 img {
+  position: relative;
+  top: 60px;
+  left: 128px;
+  width: 275px;
+  height: 137px;
+}
+
+.investor-3 {
+  position: relative;
+  width: 528px;
+  height: 283px;
+  top: 258px;
+  left: calc(50% - 528px / 2 - 304px);
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.investor-3 img {
+  position: relative;
+  top: 115px;
+  left: 151px;
+}
+
+.investor-4 {
+  position: relative;
+  width: 528px;
+  height: 283px;
+  top: 258px;
+  left: 230px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.investor-4 img {
+  position: relative;
+  top: 68px;
+  left: 115px;
+}
+
+/* CTA section */
+
+.blue {
+  position: relative;
+  top: 400px;
+  text-align: center;
+  width: 97.5%;
+  height: 398.53px;
+  left: 13px;
+  background-color: #329dfa;
+  border-radius: 5px;
+}
+
+.blue p {
+  position: relative;
+  top: 125px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.blue button {
+  position: relative;
+  top: 147px;
+  width: 272px;
+  height: 62px;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  top: 500px;
+}
+
+.footer img {
+  position: relative;
+  left: 116px;
+  width: 193.15px;
+  height: 33.3;
+}
+
+.container-5 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  left: 50px;
+  top: -40px;
+  width: 70%;
+  align-items: initial;
+  margin: 0px 100px 0px 300px;
+}
+
+.container-5 a {
+  list-style-type: none;
+  font-size: 18px;
+  color: #002240;
+  line-height: 233%;
+}
+
+.first {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #002240;
+  line-height: 233%;
+}
+
+.column-4 ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+/* Background footer */
+
+.container-6 {
+  position: relative;
+  top: 550px;
+  height: 300px;
+  background-color: #f4f4f4;
+  width: 101%;
+}
+
+.footer-text {
+  position: relative;
+  top: 60px;
+  left: 92px;
+  font-size: 18px;
+  color: #002240;
+}
+
+.footer-text a {
+  font-weight: bold;
+  line-height: 133%;
+  color: #002240;
+  margin-right: 30px;
+}
+
+.footer-text p {
+  position: relative;
+  line-height: 117%;
+  top: 45px;
+}
+
+.container-6 img {
+  position: absolute;
+  top: 200px;
+  width: 101%;
+}
+
+.facebook {
+  position: relative;
+  left: 79%;
+  top: 310px;
+}
+.twitter {
+  position: relative;
+  left: 81%;
+  top: 310px;
+}
+
+.linkedin {
+  position: relative;
+  left: 83%;
+  top: 310px;
+}
+
+/* Media Queries Background imgs */
+
+@media all and (min-width: 1440px) {
+  .background-1 {
+    z-index: -1;
+    position: absolute;
+    top: 3150px;
+    left: -1px;
+    width: 101%;
+    height: 60%;
+  }
+
+  .background-2 {
+    z-index: -1;
+    position: absolute;
+    top: 3450px;
+    left: -1px;
+    width: 101%;
+    height: 85%;
+  }
+
+  .blue {
+    position: relative;
+    top: 400px;
+    left: -17rem;
+    text-align: center;
+    width: 129%;
+    height: 398.53px;
+    margin: 0px 64px 0px 64px;
+    background-color: #329dfa;
+    border-radius: 5px;
+  }
+
+  .container-6 {
+    position: relative;
+    top: 550px;
+    height: 310px;
+    left: -15rem;
+    width: 140%;
+  }
+
+  .container-6 img {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+  }
+
+  .footer-text a {
+    position: relative;
+    font-weight: bold;
+    line-height: 133%;
+    color: #002240;
+    margin-right: 30px;
+    left: 15rem;
+  }
+
+  .footer-text p {
+    position: relative;
+    line-height: 117%;
+    top: 45px;
+    left: 15rem;
+  }
+}
+
+@media all and (max-width: 1320px) {
+  .container-3 {
+    display: flex;
+    width: 90%;
+  }
+
+  .office-1 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 67px;
+    left: 17%;
+  }
+
+  .office-2 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 100px;
+    left: 32%;
+  }
+
+  .container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .investor-1 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 250px;
+    left: 32%;
+  }
+
+  .investor-2 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 283px;
+    left: 32%;
+  }
+
+  .investor-3 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 316px;
+    left: 32%;
+  }
+
+  .investor-4 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 349px;
+    left: 32%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  body {
+    font-size: 16px;
+    margin: 0 3%;
+  }
+
+  .hero-img {
+    position: relative;
+    width: 120vw;
+    left: -180px;
+  }
+
+  .flex-2 {
+    font-size: 18px;
+    line-height: 120%;
+    width: 100%;
+  }
+
+  .mission h1 {
+    margin-top: 35%;
+  }
+
+  .bold {
+    font-size: 32px;
+  }
+
+  .container-1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    left: -85px;
+  }
+
+  .timeline-text {
+    font-size: 20px;
+  }
+
+  /* CTA Section */
+
+  .blue {
+    width: 115%;
+    left: -50px;
+  }
+
+  .blue p {
+    font-size: 32px;
+  }
+
+  .blue button {
+    position: relative;
+    top: 147px;
+    width: 146px;
+    height: 43px;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .container-3 {
+    display: flex;
+    width: 114%;
+  }
+
+  .office-1 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 67px;
+    left: -1%;
+  }
+
+  .office-2 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 100px;
+    left: 15.5%;
+  }
+
+  /* Investor Section */
+
+  .container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .investor-1 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 250px;
+    left: 20%;
+  }
+
+  .investor-2 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 283px;
+    left: 20%;
+  }
+
+  .investor-3 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 316px;
+    left: 20%;
+  }
+
+  .investor-4 {
+    position: relative;
+    width: 528px;
+    height: 283px;
+    top: 349px;
+    left: 20%;
+  }
+
+  .container-5 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    left: -55px;
+    top: -40px;
+    width: 70%;
+    align-items: initial;
+    margin: 0px 100px 0px 300px;
+  }
+
+  .footer img {
+    position: relative;
+    left: 16px;
+    width: 193.15px;
+    height: 33.3;
+  }
+
+  .container-6 {
+    position: relative;
+    top: 550px;
+    height: 310px;
+    left: -40px;
+    width: 115%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+    margin: 0 3%;
+  }
+  .hero-img {
+    position: relative;
+    width: 900px;
+    left: -290px;
+  }
+
+  .container {
+    display: block;
+    width: 100%;
+  }
+
+  .bold.flex-1 {
+    width: 100%;
+    line-height: 100%;
+    margin-bottom: -40px;
+  }
+
+  .flex-2 {
+    margin-bottom: 40%;
+  }
+
+  .mission h1 {
+    margin-top: 30%;
+  }
+
+  /* Timeline */
+
+  .rectangle {
+    position: relative;
+    width: 95%;
+    height: 879px;
+    margin: 64px 20px 77px 20px;
+  }
+
+  .line {
+    margin-left: 115px;
+  }
+
+  .year {
+    font-size: 18px;
+  }
+
+  .timeline-text {
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 131%;
+    width: 70%;
+    color: #002240;
+  }
+
+  .container-2 img {
+    height: 56px;
+    width: 56px;
+  }
+
+  .fifteen {
+    top: 120px;
+    left: 25px;
+  }
+
+  .item-1 img {
+    top: 99px;
+    left: 89px;
+  }
+
+  .item-1 p {
+    top: 120px;
+    left: 170px;
+  }
+
+  .sixteen {
+    top: 263px;
+    left: 25px;
+  }
+
+  .item-2 img {
+    top: 243px;
+    left: 89px;
+  }
+
+  .item-2 p {
+    top: 263px;
+    left: 170px;
+  }
+
+  .seventeen {
+    top: 411px;
+    left: 25px;
+  }
+
+  .item-3 img {
+    top: 387px;
+    left: 89px;
+  }
+
+  .item-3 p {
+    top: 411px;
+    left: 170px;
+  }
+
+  .nineteen {
+    top: 550px;
+    left: 25px;
+  }
+
+  .item-4 img {
+    top: 531px;
+    left: 89px;
+  }
+
+  .item-4 p {
+    top: 550px;
+    left: 170px;
+  }
+
+  .twenty {
+    top: 696px;
+    left: 25px;
+  }
+
+  .item-5 img {
+    top: 675px;
+    left: 89px;
+  }
+
+  .item-5 p {
+    top: 696px;
+    left: 170px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    position: relative;
+    left: -45%;
+    width: 190%;
+  }
+
+  .bold.flex-1 {
+    width: 100%;
+    line-height: 100%;
+    margin-bottom: -40px;
+  }
+
+  .flex-2 {
+    margin-bottom: 10%;
+  }
+
+  .mission h1 {
+    margin-top: 5%;
+  }
+
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 69px 118px 47px 118px;
+    justify-content: space-evenly;
+  }
+
+  .mission .btn.btn-primary {
+    height: 49px;
+    width: 272px;
+  }
+
+  /* Timeline */
+
+  .rectangle {
+    position: relative;
+    left: -5%;
+    width: 109%;
+    height: 879px;
+    margin: 64px 0 77px 0;
+  }
+
+  .line {
+    margin-left: 115px;
+  }
+
+  .year {
+    font-size: 18px;
+  }
+
+  .timeline-text {
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 131%;
+    width: 60%;
+    color: #002240;
+  }
+
+  .container-2 img {
+    height: 56px;
+    width: 56px;
+  }
+
+  .fifteen {
+    top: 120px;
+    left: 25px;
+  }
+
+  .item-1 img {
+    top: 99px;
+    left: 89px;
+  }
+
+  .item-1 p {
+    top: 120px;
+    left: 170px;
+  }
+
+  .sixteen {
+    top: 263px;
+    left: 25px;
+  }
+
+  .item-2 img {
+    top: 243px;
+    left: 89px;
+  }
+
+  .item-2 p {
+    top: 263px;
+    left: 170px;
+  }
+
+  .seventeen {
+    top: 411px;
+    left: 25px;
+  }
+
+  .item-3 img {
+    top: 387px;
+    left: 89px;
+  }
+
+  .item-3 p {
+    top: 411px;
+    left: 170px;
+  }
+
+  .nineteen {
+    top: 550px;
+    left: 25px;
+  }
+
+  .item-4 img {
+    top: 531px;
+    left: 89px;
+  }
+
+  .item-4 p {
+    top: 550px;
+    left: 170px;
+  }
+
+  .twenty {
+    top: 696px;
+    left: 25px;
+  }
+
+  .item-5 img {
+    top: 675px;
+    left: 89px;
+  }
+
+  .item-5 p {
+    top: 696px;
+    left: 170px;
+  }
+
+  /* Background */
+
+  .background-1 {
+    top: 3700px;
+    left: -1%;
+    width: 110%;
+    height: 70%;
+  }
+
+  .background-2 {
+    top: 4220px;
+    left: -1%;
+    width: 110%;
+    height: 50%;
+  }
+
+  /* Office Section */
+
+  .container-3 {
+    display: grid;
+    width: 100%;
+  }
+
+  .container-3 img {
+    top: 20px;
+    left: 40%;
+    height: 56px;
+    width: 56px;
+  }
+
+  .office-header {
+    top: 30px;
+    font-size: 26px;
+  }
+
+  .office-text {
+    top: 20px;
+  }
+
+  .office-1 {
+    position: relative;
+    width: 271px;
+    height: 199px;
+    top: 67px;
+    left: -50px;
+  }
+
+  .office-2 {
+    position: relative;
+    width: 271px;
+    height: 199px;
+    top: 100px;
+    left: 20%;
+  }
+
+  /* Investor Section */
+
+  .container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .investor-1 {
+    width: 272px;
+    height: 180px;
+    top: 250px;
+    left: 25%;
+  }
+
+  .investor-1 img {
+    top: 55px;
+    left: 30px;
+    width: 220px;
+    height: 62px;
+  }
+
+  .investor-2 {
+    width: 272px;
+    height: 180px;
+    top: 283px;
+    left: 25%;
+  }
+
+  .investor-2 img {
+    top: 35px;
+    left: 25px;
+    width: 220px;
+    height: 100px;
+  }
+
+  .investor-3 {
+    width: 272px;
+    height: 180px;
+    top: 316px;
+    left: 25%;
+  }
+
+  .investor-3 img {
+    top: 55px;
+    left: 30px;
+    width: 200px;
+    height: 62px;
+  }
+
+  .investor-4 {
+    width: 272px;
+    height: 180px;
+    top: 349px;
+    left: 25%;
+  }
+
+  .investor-4 img {
+    top: 55px;
+    left: 25px;
+    width: 220px;
+    height: 85px;
+  }
+
+  /* CTA section */
+
+  .blue {
+    width: 115%;
+    left: -25px;
+  }
+
+  .blue p {
+    font-size: 32px;
+    top: 75px;
+  }
+
+  .cta-btn-container {
+    display: grid;
+    margin-top: 10%;
+  }
+
+  .btn.btn-light {
+    width: 272px;
+    height: 49px;
+    top: 70px;
+    left: 23%;
+    margin-bottom: 25px;
+  }
+
+  .btn.btn-outline-light {
+    width: 272px;
+    height: 49px;
+    left: 23%;
+    top: 80px;
+  }
+
+  /* Footer Section */
+
+  .footer img {
+    position: relative;
+    left: 16px;
+    top: -50px;
+    width: 193.15px;
+    height: 33.3;
+  }
+
+  .container-5 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    left: -65%;
+    top: -10px;
+    width: 100%;
+    align-items: initial;
+    margin: 0px 100px 0px 300px;
+  }
+
+  .container-6 {
+    position: relative;
+    top: 550px;
+    height: 450px;
+    left: -40px;
+    width: 115%;
+  }
+
+  .container-6 img {
+    top: 350px;
+    left: -120px;
+    width: 150%;
+  }
+
+  .facebook {
+    top: 120px;
+    left: 150px;
+  }
+
+  .twitter {
+    top: 120px;
+    left: 180px;
+  }
+
+  .linkedin {
+    top: 120px;
+    left: 210px;
+  }
+
+  .footer-text {
+    display: grid;
+    top: 150px;
+    left: 130px;
+  }
+
+  .privacy {
+    position: relative;
+    left: 125px;
+    margin-bottom: 20px;
+  }
+
+  .terms {
+    position: relative;
+    left: 130px;
+  }
+}
