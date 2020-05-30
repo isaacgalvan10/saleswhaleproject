@@ -81,6 +81,7 @@ nav .btn.btn-primary {
   text-align: left;
   vertical-align: top;
   color: #002240;
+  margin-bottom: 5%;
 }
 
 .bold {
@@ -97,7 +98,7 @@ nav .btn.btn-primary {
 }
 
 .mission h1 {
-  margin-top: 8rem;
+  margin-top: 10%;
 }
 
 .mission p {
@@ -334,7 +335,7 @@ nav .btn.btn-primary {
   z-index: -1;
   position: absolute;
   top: 3150px;
-  width: 101%;
+  width: 103%;
   height: 50%;
   overflow-x: hidden;
 }
@@ -343,7 +344,7 @@ nav .btn.btn-primary {
   z-index: -1;
   position: absolute;
   top: 3450px;
-  width: 101%;
+  width: 103%;
   height: 50%;
   overflow-x: hidden;
 }
@@ -715,7 +716,7 @@ nav .btn.btn-primary {
   html body {
     max-width: 900px;
     overflow-x: hidden;
-    margin: 0%;
+    margin: 0 auto;
     font-size: 16px;
   }
 
@@ -733,7 +734,13 @@ nav .btn.btn-primary {
   }
 
   .mission h1 {
-    margin-top: 35%;
+    margin-top: 25%;
+  }
+
+  .mission p {
+    position: relative;
+    left: 10%;
+    width: 80%;
   }
 
   .bold {
@@ -745,11 +752,27 @@ nav .btn.btn-primary {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    left: -85px;
+    left: 1%;
+  }
+
+  /* Timeline Section */
+
+  .rectangle {
+    left: 1%;
+    width: 80%;
   }
 
   .timeline-text {
     font-size: 20px;
+  }
+
+  /* Background */
+  .background-1 {
+    width: 109%;
+  }
+
+  .background-2 {
+    width: 109%;
   }
 
   /* CTA Section */
@@ -863,11 +886,13 @@ nav .btn.btn-primary {
 }
 
 @media all and (max-width: 700px) {
-  body {
+  html body {
     overflow-x: hidden;
     margin: 0 auto;
     padding: 0;
   }
+
+  /* Above The Fold Section */
 
   .hero-img {
     position: relative;
@@ -892,7 +917,7 @@ nav .btn.btn-primary {
   }
 
   .mission h1 {
-    margin-top: 30%;
+    margin-top: 10%;
   }
 
   /* Timeline */
@@ -1004,10 +1029,13 @@ nav .btn.btn-primary {
 
 @media all and (max-width: 600px) {
   html body {
+    width: 100%;
     overflow-x: hidden;
     margin: 0 auto;
     padding: 0;
   }
+
+  /* Above The Fold Section */
 
   .container {
     position: block;
@@ -1021,18 +1049,31 @@ nav .btn.btn-primary {
   }
 
   .flex-2 {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    width: 100%;
   }
 
+  /* Mission Section */
+
   .mission h1 {
-    margin-top: 5%;
+    margin-top: 25%;
+  }
+
+  .mission p {
+    margin: 0;
+    width: 90%;
+    left: 8%;
   }
 
   .container-1 {
     display: flex;
     flex-wrap: wrap;
-    margin: 69px 118px 47px 118px;
+    margin: 69px 40% 47px 15%;
     justify-content: space-evenly;
+  }
+
+  .regular-p {
+    padding-bottom: 5%;
   }
 
   .mission .btn.btn-primary {
@@ -1040,111 +1081,17 @@ nav .btn.btn-primary {
     width: 272px;
   }
 
-  /* Timeline */
+  /* Timeline Section */
 
   .rectangle {
     position: relative;
-    width: 109%;
+    width: 105%;
     height: 879px;
     margin: 64px 0 77px 0;
-    overflow-x: hidden;
-  }
-
-  .line {
-    margin-left: 115px;
-  }
-
-  .year {
-    font-size: 18px;
   }
 
   .timeline-text {
-    position: absolute;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 131%;
     width: 60%;
-    color: #002240;
-  }
-
-  .container-2 img {
-    height: 56px;
-    width: 56px;
-  }
-
-  .fifteen {
-    top: 120px;
-    left: 25px;
-  }
-
-  .item-1 img {
-    top: 99px;
-    left: 89px;
-  }
-
-  .item-1 p {
-    top: 120px;
-    left: 170px;
-  }
-
-  .sixteen {
-    top: 263px;
-    left: 25px;
-  }
-
-  .item-2 img {
-    top: 243px;
-    left: 89px;
-  }
-
-  .item-2 p {
-    top: 263px;
-    left: 170px;
-  }
-
-  .seventeen {
-    top: 411px;
-    left: 25px;
-  }
-
-  .item-3 img {
-    top: 387px;
-    left: 89px;
-  }
-
-  .item-3 p {
-    top: 411px;
-    left: 170px;
-  }
-
-  .nineteen {
-    top: 550px;
-    left: 25px;
-  }
-
-  .item-4 img {
-    top: 531px;
-    left: 89px;
-  }
-
-  .item-4 p {
-    top: 550px;
-    left: 170px;
-  }
-
-  .twenty {
-    top: 696px;
-    left: 25px;
-  }
-
-  .item-5 img {
-    top: 675px;
-    left: 89px;
-  }
-
-  .item-5 p {
-    top: 696px;
-    left: 170px;
   }
 
   /* Background */
@@ -1193,7 +1140,7 @@ nav .btn.btn-primary {
     width: 271px;
     height: 199px;
     top: 67px;
-    left: -50px;
+    left: -1%;
   }
 
   .office-2 {
@@ -1201,7 +1148,7 @@ nav .btn.btn-primary {
     width: 271px;
     height: 199px;
     top: 100px;
-    left: 20%;
+    left: 25%;
   }
 
   /* Investor Section */
@@ -1216,7 +1163,7 @@ nav .btn.btn-primary {
     width: 272px;
     height: 180px;
     top: 250px;
-    left: 25%;
+    left: 30%;
   }
 
   .investor-1 img {
@@ -1230,7 +1177,7 @@ nav .btn.btn-primary {
     width: 272px;
     height: 180px;
     top: 283px;
-    left: 25%;
+    left: 30%;
   }
 
   .investor-2 img {
@@ -1244,7 +1191,7 @@ nav .btn.btn-primary {
     width: 272px;
     height: 180px;
     top: 316px;
-    left: 25%;
+    left: 30%;
   }
 
   .investor-3 img {
@@ -1258,7 +1205,7 @@ nav .btn.btn-primary {
     width: 272px;
     height: 180px;
     top: 349px;
-    left: 25%;
+    left: 30%;
   }
 
   .investor-4 img {
@@ -1278,6 +1225,7 @@ nav .btn.btn-primary {
   .blue p {
     font-size: 32px;
     top: 75px;
+    left: -5%;
   }
 
   .cta-btn-container {
@@ -1337,17 +1285,17 @@ nav .btn.btn-primary {
   }
 
   .facebook {
-    top: 120px;
+    top: 170px;
     left: 150px;
   }
 
   .twitter {
-    top: 120px;
+    top: 170px;
     left: 180px;
   }
 
   .linkedin {
-    top: 120px;
+    top: 170px;
     left: 210px;
   }
 
@@ -1366,5 +1314,423 @@ nav .btn.btn-primary {
   .terms {
     position: relative;
     left: 130px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  /* Above The Fold Section */
+
+  .flex-2 {
+    width: 120%;
+    margin-bottom: 95%;
+  }
+
+  /* Mission Section */
+
+  .mission h1 {
+    margin-top: 25%;
+    padding-top: 5%;
+  }
+
+  /* Background Images */
+
+  .background-1 {
+    top: 4000px;
+    width: 105%;
+    height: 40%;
+  }
+
+  .background-2 {
+    top: 4250px;
+    width: 105%;
+    height: 40%;
+  }
+
+  /* Office Sectin */
+
+  .office-1 {
+    left: -5%;
+  }
+
+  /* Footer Section */
+
+  .container-5 {
+    position: relative;
+    left: -65%;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .bold.flex-1 {
+    position: relative;
+    left: -15%;
+    width: 155%;
+  }
+
+  .flex-2 {
+    position: relative;
+    left: -15%;
+    width: 155%;
+    margin-top: 15%;
+    margin-bottom: 150%;
+  }
+
+  .mission h1 {
+    margin-top: 80%;
+  }
+  .mission p {
+    left: 7%;
+  }
+
+  /* Timeline */
+
+  .timeline-text {
+    width: 50%;
+  }
+
+  /* Office Section */
+
+  .office-1 {
+    left: -13%;
+  }
+
+  .office-2 {
+    left: 17%;
+  }
+
+  /* Investor section */
+
+  .investor-1 {
+    left: 25%;
+  }
+
+  .investor-2 {
+    left: 25%;
+  }
+
+  .investor-3 {
+    left: 25%;
+  }
+
+  .investor-4 {
+    left: 25%;
+  }
+
+  /* Footer Section */
+
+  .container-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    left: -70%;
+  }
+
+  .facebook {
+    top: 170px;
+    left: 30%;
+  }
+
+  .twitter {
+    top: 170px;
+    left: 35%;
+  }
+
+  .linkedin {
+    top: 170px;
+    left: 40%;
+  }
+
+  .footer-text {
+    display: grid;
+    top: 150px;
+    left: 20%;
+  }
+
+  .privacy {
+    position: relative;
+    left: 125px;
+    margin-bottom: 20px;
+  }
+
+  .terms {
+    position: relative;
+    left: 130px;
+  }
+
+  .container-6 img {
+    top: 375px;
+  }
+}
+
+@media all and (max-width: 401px) {
+  nav img {
+    padding-left: 5%;
+    height: 33.3px;
+    width: 128px;
+  }
+
+  /* Office Section */
+
+  .office-1 {
+    left: -19%;
+  }
+
+  .office-2 {
+    left: 11%;
+  }
+
+  /* Investor Section */
+
+  .investor-1 {
+    left: 18%;
+  }
+  .investor-2 {
+    left: 18%;
+  }
+  .investor-3 {
+    left: 18%;
+  }
+  .investor-4 {
+    left: 18%;
+  }
+
+  /* Background */
+
+  .background-1 {
+    top: 4250px;
+    width: 105%;
+    height: 40%;
+  }
+
+  .background-2 {
+    top: 4500px;
+    width: 105%;
+    height: 40%;
+  }
+
+  /* CTA Section */
+
+  .blue p {
+    left: 4%;
+  }
+
+  /* Footer Section */
+
+  .container-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    left: -85%;
+  }
+}
+
+@media all and (max-width: 365px) {
+  html body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* Above The Fold Section */
+
+  .bold.flex-1 {
+    position: relative;
+    left: -75%;
+    width: 270px;
+  }
+
+  .flex-2 {
+    position: relative;
+    left: -75%;
+    width: 270px;
+    margin-top: 15%;
+    margin-bottom: 150%;
+  }
+
+  /* Timeline */
+
+  .timeline-text {
+    width: 40%;
+  }
+
+  /* Office Section */
+
+  .office-1 {
+    left: -20%;
+  }
+
+  .office-2 {
+    left: 10%;
+  }
+
+  /* Background Section */
+
+  .background-1 {
+    top: 4300px;
+    width: 105%;
+    height: 40%;
+  }
+
+  .background-2 {
+    top: 4550px;
+    width: 105%;
+    height: 30%;
+  }
+
+  /* Investor Section */
+
+  .investor-1 {
+    left: 16%;
+  }
+  .investor-2 {
+    left: 16%;
+  }
+  .investor-3 {
+    left: 16%;
+  }
+  .investor-4 {
+    left: 16%;
+  }
+
+  /* CTA Section */
+
+  .blue p {
+    font-size: 32px;
+    top: 75px;
+    left: -1%;
+  }
+
+  .btn.btn-light {
+    width: 272px;
+    height: 49px;
+    top: 70px;
+    left: 17%;
+    margin-bottom: 25px;
+  }
+
+  .btn.btn-outline-light {
+    width: 272px;
+    height: 49px;
+    left: 17%;
+    top: 80px;
+  }
+
+  /* Footer Section */
+
+  .container-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    left: -80%;
+  }
+
+  .footer-text {
+    left: 15%;
+  }
+
+  .facebook {
+    top: 170px;
+    left: 25%;
+  }
+
+  .twitter {
+    top: 170px;
+    left: 30%;
+  }
+
+  .linkedin {
+    top: 170px;
+    left: 35%;
+  }
+
+  .container-6 img {
+    top: 390px;
+  }
+}
+
+@media all and (max-width: 331px) {
+  html body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav img {
+    padding-left: 8%;
+    height: 33.3px;
+    width: 130px;
+  }
+
+  /* Above The Fold Section */
+
+  .bold.flex-1 {
+    position: relative;
+    left: -115%;
+    width: 270px;
+  }
+
+  .flex-2 {
+    position: relative;
+    left: -115%;
+    width: 270px;
+    margin-top: 15%;
+    margin-bottom: 100%;
+  }
+
+  .mission h1 {
+    padding-top: 5%;
+  }
+
+  /* Office Section */
+
+  .office-1 {
+    left: -23%;
+  }
+
+  .office-2 {
+    left: 7%;
+  }
+
+  /* Background */
+
+  .background-1 {
+    top: 4300px;
+    width: 105%;
+    height: 40%;
+  }
+
+  .background-2 {
+    top: 4550px;
+    width: 105%;
+    height: 30%;
+  }
+
+  /* Footer Section */
+
+  .container-5 {
+    display: grid;
+    grid-template-columns: 128px 135px;
+    width: 77%;
+    left: -100%;
+  }
+
+  .footer-text {
+    display: grid;
+    top: 150px;
+    left: 25%;
+    width: 80%;
+  }
+
+  .privacy {
+    position: relative;
+    left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .terms {
+    position: relative;
+    left: 85px;
   }
 }
