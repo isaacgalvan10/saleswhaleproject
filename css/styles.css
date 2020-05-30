@@ -523,13 +523,14 @@ nav .btn.btn-primary {
   top: 550px;
   height: 300px;
   background-color: #f4f4f4;
-  width: 101%;
+  width: 105%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .footer-text {
   position: relative;
-  top: 60px;
+  top: 70px;
   left: 92px;
   font-size: 18px;
   color: #002240;
@@ -551,8 +552,9 @@ nav .btn.btn-primary {
 .container-6 img {
   position: absolute;
   top: 200px;
-  width: 101%;
+  width: 105%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .facebook {
